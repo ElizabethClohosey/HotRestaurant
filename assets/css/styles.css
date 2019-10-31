@@ -1,13 +1,20 @@
 /* body {
     background: coral;
 } */
-
-.display-3, h6 {
+.display-3 {
+    color: rgb(71, 71, 71);
     font-weight: 500;
+}
+
+ h2 {
     color: rgb(71, 71, 71);
 }
 
- h6 {
-    font-weight: 700;
-    font-size: 1.5rem;
-}
+@media only screen and (max-width: 767px) {
+    .display-3 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+ }
